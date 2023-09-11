@@ -57,6 +57,9 @@
 .p-20 {
     padding: 20px;
 }
+.pt-20 {
+    padding-top: 20px;
+}
 .pr-20 {
     padding-right: 20px;
 }
@@ -130,6 +133,9 @@
 }
 .bg-eee {
     background-color: #eee;
+}
+.bg-input {
+    background-color: #f1f5f9;
 }
 .bg-blue {
     background-color: var(--blue-color);

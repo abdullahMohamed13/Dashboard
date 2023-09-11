@@ -55,10 +55,11 @@ a {
     background-color: var(--main-color);
 }
 .main-content {
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     margin-left: 20px;
     margin-right: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 @media (width < 768px) {
     .main-content {
@@ -68,7 +69,6 @@ a {
     }
 }
 /* End Component */
-/* Start Side-bar */
 aside {
     box-shadow: 0px -10px 6px #ccc;
 }
@@ -140,7 +140,7 @@ aside ul li i {
     padding: 5px 0 5px 30px;
     width: 80%;
     color: black;
-    border-color: #fafafa;
+    border: 2px solid var(--dark-red);
     transition: width var(--transition-d);
 }
 @media (width < 768px) {
@@ -203,6 +203,7 @@ aside ul li i {
     width: 30px;
     background-color: var(--dark-red);
 }
+/* Start Dashboard Page */
 /* Start Welcome */
 .welcome .up img {
     max-width: 100%;
@@ -705,7 +706,7 @@ aside ul li i {
 /* End Social Media Stats */
 /* Start Project */
 .projects {
-    margin: 10px 20px 20px;
+    margin: 20px 20px 20px;
 }
 .projects table {
     border-spacing: 0px;
@@ -741,6 +742,186 @@ aside ul li i {
     font-size: 14px;
 }
 /* End Project */
+/* End Dashboard Page */
+/* Start Settings Page */
+.settings-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+@media (width < 768px) {
+    .settings-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* Start toggle-checkbox */
+.toggle-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.toggle-switch {
+    background-color: #ccc;
+    width: 78px;
+    height: 32px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition-d);
+}
+.toggle-switch::before {
+    font-family: var(--fa-style-family-classic);
+    content: "\f00d";
+    font-weight: 900;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #ccc;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition-d);
+}
+.toggle-checkbox:checked + .toggle-switch {
+    background-color: var(--dark-red);
+}
+.toggle-checkbox:checked + .toggle-switch::before {
+    content: "\f00c";
+    left: 50px;
+    color: var(--dark-red);
+}
+/* End toggle-checkbox */
+/* Start Site-control */
+.site-control .container .writing textarea {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    resize: none;
+    outline: none;
+    height: 150px;
+}
+/* End Site-control */
+/* Start General Info */
+.general-info .label input {
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.general-info .container .label:last-child input {
+    opacity: .7;
+    width: 100%;
+}
+.general-info .container .label:last-child .change p {
+    cursor: pointer;
+}
+/* End General Info */
+/* Start Security Info */
+.security-info .holder {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+/* End Security Info */
+/* Start Social Info */
+.social-inf .holder {
+    opacity: 0.7;
+    transition: var(--transition-d);
+    border: 2px solid #b6b6b6;
+}
+.social-inf .holder:hover {
+    opacity: 1;
+    border-color: black;
+}
+.social-inf .holder p {
+    cursor: default;
+}
+.social-inf .holder p::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 2px;
+    height: calc(100% + 20px);
+    background-color: #b6b6b6;
+    transition: var(--transition-d);
+}
+.social-inf .holder:hover p::before {
+    background-color: black;
+}
+/* End Social Info */
+/* Start Widgets Control */
+.widgets .checkboxes input,
+.widgets .checkboxes label {
+    cursor: pointer;
+    width: fit-content;
+}
+.widgets .checkboxes input {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transition: var(--transition-d);
+}
+.widgets .checkboxes input:checked {
+    transform: rotate(360deg);
+}
+/* End Widgets Control */
+/* Start Backup */
+.backup input,
+.backup label {
+    cursor: pointer;
+    width: fit-content;
+}
+.backup label {
+    font-size: 18px;
+}
+.backup input {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.backup .choose {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #ddd;
+}
+@media (width < 768px) {
+    .backup .choose {
+        justify-content: center;
+    }
+}
+.backup .choose > .box:last-child {
+    border-color: var(--blue-color);
+}
+.backup .choose > .box:last-child i,
+.backup .choose > .box:last-child p {
+    color: var(--blue-color);
+}
+.backup .choose  .box {
+    border: 2px solid #ddd;
+    padding: 20px 40px;
+    width: calc((100% - 40px) / 3);
+}
+@media (width < 768px) {
+    .backup .choose .box {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 14px;
+        width: calc((100% - 20px) / 3);
+    }
+}
+/* End Backup */
+/*  */
+
+/* End Settings Page */
 /* Start Animaiton */
 @keyframes circle-flash {
     to {
