@@ -13,6 +13,9 @@
 .d-flex {
     display: flex;
 }
+.flex-1 {
+    flex: 1;
+}
 .align-center {
     align-items: center;
 }
@@ -28,11 +31,28 @@
 .d-grid {
     display: grid;
 }
+.grid-temp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+@media (width < 768px) {
+    .grid-temp-mobile {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 .gap-10 {
     gap: 10px;
 }
 .gap-20 {
     gap: 20px;
+}
+.gap-30 {
+    gap: 30px;
 }
 .d-block {
     display: block;
@@ -85,6 +105,9 @@
 }
 .mt-20 {
     margin-top: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
 }
 .mb-5 {
     margin-bottom: 5px;
