@@ -52,6 +52,7 @@ a {
     --transition-d: 0.4s;
 }
 /* End Global Rules */
+/* Start Side Bar */
 .page {
     background-color: var(--main-color);
 }
