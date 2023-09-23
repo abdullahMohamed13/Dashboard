@@ -6,4 +6,4 @@ This repository contains an HTML and CSS dashboard project that I developed as a
   - Responsive Design: The dashboard is designed to be responsive, ensuring optimal viewing experience across different devices and screen sizes.
   - Reusable Components: The framework includes reusable components that contribute to code efficiency and maintainability.
 
-# Credits: https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/
+# Original Design: https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/
