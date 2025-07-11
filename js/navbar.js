@@ -36,7 +36,7 @@ searchBar.appendChild(searchDropdown);
 // --- Search Data ---
 const searchData = [
   // Pages
-  { label: 'Home', url: '../pages/home.html', type: 'Page' },
+  { label: 'Home', url: '../pages/index.html', type: 'Page' },
   { label: 'Settings', url: '../pages/settings.html', type: 'Page' },
   { label: 'Profile', url: '../pages/profile.html', type: 'Page' },
   { label: 'Projects', url: '../pages/projects.html', type: 'Page' },
@@ -45,14 +45,14 @@ const searchData = [
   { label: 'Files', url: '../pages/files.html', type: 'Page' },
   { label: 'Plans', url: '../pages/plans.html', type: 'Page' },
   // Home News
-  { label: 'Created SASS Section', url: '../pages/home.html', type: 'News' },
-  { label: 'Changed The Design', url: '../pages/home.html', type: 'News' },
-  { label: 'Team Increased', url: '../pages/home.html', type: 'News' },
-  { label: 'Added Payment Gateway', url: '../pages/home.html', type: 'News' },
+  { label: 'Created SASS Section', url: '../pages/index.html', type: 'News' },
+  { label: 'Changed The Design', url: '../pages/index.html', type: 'News' },
+  { label: 'Team Increased', url: '../pages/index.html', type: 'News' },
+  { label: 'Added Payment Gateway', url: '../pages/index.html', type: 'News' },
   // Home Tasks
-  { label: 'Record One New Video', url: '../pages/home.html', type: 'Task' },
-  { label: 'Write Article', url: '../pages/home.html', type: 'Task' },
-  { label: 'Finish Project', url: '../pages/home.html', type: 'Task' },
+  { label: 'Record One New Video', url: '../pages/index.html', type: 'Task' },
+  { label: 'Write Article', url: '../pages/index.html', type: 'Task' },
+  { label: 'Finish Project', url: '../pages/index.html', type: 'Task' },
   // Skills
   { label: 'HTML5', url: '../pages/profile.html', type: 'Skill' },
   { label: 'CSS3', url: '../pages/profile.html', type: 'Skill' },

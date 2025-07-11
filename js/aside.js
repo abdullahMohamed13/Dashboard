@@ -26,7 +26,7 @@ const allPagesNames = [
 ]
 
 const pagesHrefs = [
-    '../pages/home.html',
+    '../pages/index.html',
     '../pages/settings.html',
     '../pages/profile.html',
     '../pages/projects.html',
