@@ -26,14 +26,14 @@ const allPagesNames = [
 ]
 
 const pagesHrefs = [
-    '../pages/index.html',
-    '../pages/settings.html',
-    '../pages/profile.html',
-    '../pages/projects.html',
-    '../pages/courses.html',
-    '../pages/friends.html',
-    '../pages/files.html',
-    '../pages/plans.html',
+    './index.html',
+    './settings.html',
+    './profile.html',
+    './projects.html',
+    './courses.html',
+    './friends.html',
+    './files.html',
+    './plans.html',
 ];
 
 const iconsTypes = [

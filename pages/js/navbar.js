@@ -200,7 +200,7 @@ const n1 = document.createElement('div')
 n1.classList.add('msg');
 
 const img1 = document.createElement('img')
-img1.setAttribute('src', '../images/Friends/friend-01.png')
+img1.setAttribute('src', './images/Friends/friend-01.png')
 
 const info1 = document.createElement('info')
 info1.className = 'info';
@@ -225,7 +225,7 @@ const n2 = document.createElement('div')
 n2.classList.add('msg');
 
 const img2 = document.createElement('img')
-img2.setAttribute('src', '../images/Friends/friend-02.png')
+img2.setAttribute('src', './images/Friends/friend-02.png')
 
 const info2 = document.createElement('info')
 info2.className = 'info';
@@ -256,7 +256,7 @@ const profilePicSection = document.createElement('a')
 profilePicSection.setAttribute('href', '../pages/profile.html')
 
 const profileImg = document.createElement('img')
-profileImg.setAttribute('src', '../images/me.jpeg')
+profileImg.setAttribute('src', './images/me.jpeg')
 profileImg.setAttribute('alt', 'Profile Picture')
 
 profilePicSection.appendChild(profileImg)
