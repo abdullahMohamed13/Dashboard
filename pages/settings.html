@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/framework.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,79 +16,13 @@
 </head>
 <body>
     <div class="page d-flex">
-        <!-- Start Side-Bar -->
-        <aside class="p-20 bg-white p-relative p-10-mobile">
-            <h2 class="p-relative txt-c mt-0 fs-18">Abdullah</h2>
-            <ul>
-                <li class="d-flex">
-                    <a href="index.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span class="hide-mobile">Dashboard</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="settings.html" class="active c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="hide-mobile">Settings</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="profile.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user"></i>
-                        <span class="hide-mobile">Profile</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="projects.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span class="hide-mobile">Projects</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="courses.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-graduate"></i>
-                        <span class="hide-mobile">Courses</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="friends.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-group"></i>
-                        <span class="hide-mobile">Friends</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="files.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-file"></i>
-                        <span class="hide-mobile">Files</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="plans.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-credit-card"></i>
-                        <span class="hide-mobile">Plans</span>
-                    </a>
-                </li>
-            </ul>
-        </aside>
-        <!-- End Side-Bar -->
-        <!-- Start Head -->
+        <script src="../js/aside.js"></script>
         <div class="content overflow-h">
-            <div class="header d-flex bg-white flex-between">
-                <div class="search p-relative">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" placeholder="Type A Word" class="rad-6">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="p-relative">
-                        <i class="fa-regular fa-bell"></i>
-                    </span>
-                    <a href="https://github.com/abdullahMohamed13" target="_blank">
-                        <img src="images/me.jpeg" alt="" class="mx-w">
-                    </a>
-                </div>
-            </div>
-        <!-- End Head -->
-            <h1 class="p-relative">Settings</h1>
+            <!-- NavBar component -->
+            <script src="../js/navbar.js"></script>
+
+            <h1 class="p-relative">Settings 🔧</h1>
+            
             <div class="settings-page grid-temp grid-temp-mobile mb-20">
                 <!-- Start Site Control -->
                 <div class="site-control bg-white p-20 rad-10 overflow-h">
@@ -162,13 +97,13 @@
                                 <p class="fs-18">Devices</p>
                                 <p class="fs-14 mt-5 c-grey">Check The Login Devices List</p>
                             </div>
-                            <a href="#" class="bg-eee rad-6 p-5" style="color: black;">Devices</a>
+                            <a href="#" class="anchor bg-darkred">Devices</a>
                         </div>
                     </div>
                 </div>
                 <!-- End Security Info -->
                 <!-- Start Social Info -->
-                <div class="social-inf bg-white p-20 rad-10 overflow-h">
+                <div class="social-info bg-white p-20 rad-10 overflow-h">
                     <h2>Social Info</h2>
                     <p class="c-grey mt-10">Social Media Information</p>
                     <div class="container flex-column gap-20 mt-20">
@@ -182,11 +117,11 @@
                         </div>
                         <div class="holder d-flex gap-20 bg-input p-10">
                             <i class="fa-brands fa-linkedin"></i>
-                            <p class="p-relative">Abdullah_Mohamed</p>
+                            <p class="p-relative">Abdallah Aziz</p>
                         </div>
                         <div class="holder d-flex gap-20 bg-input p-10">
                             <i class="fa-brands fa-github"></i>
-                            <p class="p-relative">abdullahMohamed13</p>
+                            <p class="p-relative" scroll>abdullahMohamed138</p>
                         </div>
                     </div>
                 </div>

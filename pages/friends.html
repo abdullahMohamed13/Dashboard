@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/framework.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,79 +16,12 @@
 </head>
 <body>
     <div class="page d-flex">
-        <!-- Start Side-Bar -->
-        <aside class="p-20 bg-white p-relative p-10-mobile">
-            <h2 class="p-relative txt-c mt-0 fs-18">Abdullah</h2>
-            <ul>
-                <li class="d-flex">
-                    <a href="index.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span class="hide-mobile">Dashboard</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="settings.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="hide-mobile">Settings</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="profile.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user"></i>
-                        <span class="hide-mobile">Profile</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="projects.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span class="hide-mobile">Projects</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="courses.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-graduate"></i>
-                        <span class="hide-mobile">Courses</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="friends.html" class="active c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-group"></i>
-                        <span class="hide-mobile">Friends</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="files.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-file"></i>
-                        <span class="hide-mobile">Files</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="plans.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-credit-card"></i>
-                        <span class="hide-mobile">Plans</span>
-                    </a>
-                </li>
-            </ul>
-        </aside>
-        <!-- End Side-Bar -->
-        <!-- Start Head -->
+        <script src="../js/aside.js"></script>
         <div class="content overflow-h">
-            <div class="header d-flex bg-white flex-between">
-                <div class="search p-relative">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" placeholder="Type A Word" class="rad-6">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="p-relative">
-                        <i class="fa-regular fa-bell"></i>
-                    </span>
-                    <a href="https://github.com/abdullahMohamed13" target="_blank">
-                        <img src="images/me.jpeg" alt="" class="mx-w">
-                    </a>
-                </div>
-            </div>
-        <!-- End Head -->
-            <h1 class="p-relative">Friends</h1>
+            <!-- NavBar component -->
+            <script src="../js/navbar.js"></script>
+
+            <h1 class="p-relative">Friends👨‍❤️‍👨</h1>
             <div class="friends-page">
                 <div class="friend p-relative bg-white p-20 rad-10 overflow-h flex-column gap-20">
                     <div class="up txt-c">
@@ -95,10 +29,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-01.jpg" alt="">
+                        <img src="../images/Friends/friend-01.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Ahmed Nasser</p>
-                            <p class="fs-14 c-grey txt-c mt-5">JavaScript Developer</p>
+                            <p class="txt-c f-bold">Zeiad Maged</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Data Analyst</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -120,8 +54,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 02/10/2022</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -131,10 +65,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-02.jpg" alt="">
+                        <img src="../images/Friends/friend-02.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Omar Fathy</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Cloud Developer</p>
+                            <p class="txt-c f-bold">Zeiad Tarek</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Business Man</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -157,8 +91,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 02/8/2023</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -168,10 +102,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-03.jpg" alt="">
+                        <img src="../images/Friends/friend-03.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Omar Ahmed</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Mobile Developer</p>
+                            <p class="txt-c f-bold">Abdelaziz Waleed</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Project Manager</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -193,8 +127,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 25/5/2019</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -204,10 +138,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-04.jpg" alt="">
+                        <img src="../images/Friends/friend-04.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Shady Nabil</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Back-End Developer</p>
+                            <p class="txt-c f-bold">Ahmed Mohamed</p>
+                            <p class="fs-14 c-grey txt-c mt-5">AI Developer</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -230,8 +164,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 13/8/2017</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -241,10 +175,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-05.jpg" alt="">
+                        <img src="../images/Friends/friend-05.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Mohamed Ibrahim</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Algorithm Developer</p>
+                            <p class="txt-c f-bold">Hadaba</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Russian Citizen</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -266,8 +200,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 11/12/2022</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -277,17 +211,17 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-01.jpg" alt="">
+                        <img src="../images/Friends/friend-06.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Amr Hendawy</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Back-End Developer</p>
+                            <p class="txt-c f-bold">Belal Wael</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Basketball Commentator</p>
                         </div>
                     </div>
                     <div class="body p-relative">
                         <div class="info flex-column gap-10">
                             <div class="col d-flex gap-10 fs-14">
                                 <i class="fa-regular fa-face-smile"></i>
-                                <p>70 Friends</p>
+                                <p>7000 Friends</p>
                             </div>
                             <div class="col d-flex gap-10 fs-14">
                                 <i class="fa-solid fa-code-commit"></i>
@@ -302,8 +236,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 02/10/2020</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -313,10 +247,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-02.jpg" alt="">
+                        <img src="../images/Friends/friend-07.jpg" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Mahmoud Adel</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Cloud Developer</p>
+                            <p class="txt-c f-bold">Abdelaziz Omar</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Computer Scientist</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -339,8 +273,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 09/3/2023</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -350,10 +284,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-03.jpg" alt="">
+                        <img src="../images/Friends/friend-08.jpg" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Abdullah H.</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Content Creator</p>
+                            <p class="txt-c f-bold">Shehab Helmy</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Does not need introduction</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -375,8 +309,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 26/7/2022</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -386,10 +320,10 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-04.jpg" alt="">
+                        <img src="../images/Friends/friend-09.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Hamza</p>
-                            <p class="fs-14 c-grey txt-c mt-5">Front-End Developer</p>
+                            <p class="txt-c f-bold">Omar Mohamed</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Russian Speaker</p>
                         </div>
                     </div>
                     <div class="body p-relative">
@@ -412,8 +346,8 @@
                     <div class="down flex-between">
                         <p class="fs-14 c-grey">Joined 04/1/2018</p>
                         <div class="btns d-flex gap-5">
-                            <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-blue">Profile</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>
@@ -423,17 +357,17 @@
                             <i class="fa-solid fa-phone"></i>
                             <i class="fa-solid fa-envelope"></i>
                         </div>
-                        <img src="images/Friends/friend-05.jpg" alt="">
+                        <img src="../images/Friends/friend-10.png" alt="">
                         <div class="text mt-10">
-                            <p class="txt-c f-bold">Mohamed Salah</p>
-                            <p class="fs-14 c-grey txt-c mt-5">UI & UX Developer</p>
+                            <p class="txt-c f-bold">Unknown</p>
+                            <p class="fs-14 c-grey txt-c mt-5">Unknown</p>
                         </div>
                     </div>
                     <div class="body p-relative">
                         <div class="info flex-column gap-10">
                             <div class="col d-flex gap-10 fs-14">
                                 <i class="fa-regular fa-face-smile"></i>
-                                <p>70 Friends</p>
+                                <p>399 Friends</p>
                             </div>
                             <div class="col d-flex gap-10 fs-14">
                                 <i class="fa-solid fa-code-commit"></i>
@@ -441,7 +375,7 @@
                             </div>
                             <div class="col d-flex gap-10 fs-14">
                                 <i class="fa-regular fa-newspaper"></i>
-                                <p>30 Articles</p>
+                                <p>? Articles</p>
                             </div>
                         </div>
                     </div>
@@ -449,7 +383,7 @@
                         <p class="fs-14 c-grey">Joined 04/8/2022</p>
                         <div class="btns d-flex gap-5">
                             <a href="profile.html" class="anchor bg-blue">Profile</a>
-                            <a href="#" class="anchor bg-red">Remove</a>
+                            <a class="anchor bg-red">Remove</a>
                         </div>
                     </div>
                 </div>

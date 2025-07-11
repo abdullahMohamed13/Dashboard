@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>Home - Welcome To Dashboard</title>
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
     <!-- My Framework File -->
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/framework.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,101 +17,36 @@
 </head>
 <body>
     <div class="page d-flex">
-        <!-- Start Side-Bar -->
-        <aside class="p-20 bg-white p-relative p-10-mobile">
-            <h2 class="p-relative txt-c mt-0 fs-18">Abdullah</h2>
-            <ul>
-                <li class="d-flex">
-                    <a href="index.html" class="active c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span class="hide-mobile">Dashboard</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="settings.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="hide-mobile">Settings</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="profile.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user"></i>
-                        <span class="hide-mobile">Profile</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="projects.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span class="hide-mobile">Projects</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="courses.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-graduate"></i>
-                        <span class="hide-mobile">Courses</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="friends.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-user-group"></i>
-                        <span class="hide-mobile">Friends</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="files.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-file"></i>
-                        <span class="hide-mobile">Files</span>
-                    </a>
-                </li>
-                <li class="d-flex">
-                    <a href="plans.html" class="c-black d-flex align-center fs-14 rad-6 p-10">
-                        <i class="fa-solid fa-credit-card"></i>
-                        <span class="hide-mobile">Plans</span>
-                    </a>
-                </li>
-            </ul>
-        </aside>
-        <!-- End Side-Bar -->
-        <!-- Start Head -->
+        <script src="../js/aside.js"></script>
         <div class="content overflow-h">
-            <div class="header d-flex bg-white flex-between">
-                <div class="search p-relative">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" placeholder="Type A Word" class="rad-6">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="p-relative">
-                        <i class="fa-regular fa-bell"></i>
-                    </span>
-                    <a href="https://github.com/abdullahMohamed13" target="_blank">
-                        <img src="images/me.jpeg" alt="" class="mx-w">
-                    </a>
-                </div>
-            </div>
+            <!-- NavBar component -->
+            <script src="../js/navbar.js"></script>
         <!-- End Head -->
-            <h1 class="p-relative">Dashboard</h1>
+            <h1 class="p-relative">
+                <p class="mb-10">Home 🏡</p>
+            </h1>
             <div class="main-content grid-temp grid-temp-mobile">
                 <!-- Start Welcome -->
                 <div class="welcome bg-white rad-10 txt-c-mobile overflow-h block-mobile p-relative">
                     <div class="up d-flex flex-between p-relative bg-eee p-20">
                         <div class="name">
                             <h2>Welcome</h2>
-                            <p class="mt-5 c-grey">Abdullah</p>
+                            <p class="mt-5 c-grey">Abdallah</p>
                         </div>
-                        <img src="images/Dashboard/welcome.png" alt="">
+                        <img src="../images/Home/welcome.png" alt="">
                     </div>
                     <div class="down d-flex p-relative bg-white txt-c flex-between p-20">
-                        <img src="images/me.jpeg" alt="">
+                        <img src="../images/me.jpeg" alt="">
                         <div class="box">
-                            <p>Abdullah Mohamed</p>
-                            <span class="c-grey">Developer</span>
+                            <p>Abdallah Mohamed</p>
+                            <span class="c-grey">Frontend Developer</span>
                         </div>
                         <div class="box">
-                            <p>80</p>
+                            <p>20+</p>
                             <span class="c-grey">Projects</span>
                         </div>
                         <div class="box">
-                            <p>8500$</p>
+                            <p>7000$</p>
                             <span class="c-grey">Earned</span>
                         </div>
                     </div>
@@ -137,7 +73,7 @@
                             <i class="fa-solid fa-dollar-sign p-20 rad-6 mb-10 c-blue"></i>
                             <div class="row w-full">
                                 <p class="c-grey mb-5">Money</p>
-                                <div class="f-bold mb-5">20.000$</div>
+                                <div class="f-bold mb-5">10.000$</div>
                                 <div class="holder p-relative ">
                                     <div></div>
                                     <span class="bg-blue" data-prog="70%"></span>
@@ -202,7 +138,7 @@
                     <h2>Latest News</h2>
                     <div class="holder d-flex mt-20 flex-between">
                         <div class="left d-flex gap-10">
-                            <img src="images/Latest-news/news-01.png" alt="">
+                            <img src="../images/Latest-news/news-01.png" alt="">
                             <div class="text">
                                 <h3>Created SASS Section</h3>
                                 <p class="c-grey mt-5">New SASS Examples & Tutorials</p>
@@ -212,7 +148,7 @@
                     </div>
                     <div class="holder d-flex mt-20 flex-between">
                         <div class="left d-flex gap-10">
-                            <img src="images/Latest-news/news-02.png" alt="">
+                            <img src="../images/Latest-news/news-02.png" alt="">
                             <div class="text">
                                 <h3>Changed The Design</h3>
                                 <p class="c-grey mt-5">A Brand New Website Design</p>
@@ -222,7 +158,7 @@
                     </div>
                     <div class="holder d-flex mt-20 flex-between">
                         <div class="left d-flex gap-10">
-                            <img src="images/Latest-news/news-03.png" alt="">
+                            <img src="../images/Latest-news/news-03.png" alt="">
                             <div class="text">
                                 <h3>Team Increased</h3>
                                 <p class="c-grey mt-5">3 Developers Joined The Team</p>
@@ -232,7 +168,7 @@
                     </div>
                     <div class="holder d-flex mt-20 flex-between">
                         <div class="left d-flex gap-10">
-                            <img src="images/Latest-news/news-04.png" alt="">
+                            <img src="../images/Latest-news/news-04.png" alt="">
                             <div class="text">
                                 <h3>Added Payment Gateway</h3>
                                 <p class="c-grey mt-5">Many New Payment Gateways Added</p>
@@ -337,21 +273,24 @@
                 <!-- End Top Search Items -->
                 <!-- Start Latest Upload -->
                 <div class="upload bg-white p-20 rad-10 overflow-h flex-column">
-                    <h2>Latest Upload</h2>
+                    <div class="flex-between">
+                        <h2>Latest Upload</h2>
+                        <a href="./files.html" class="anchor" style="background-color: var(--blue-alt-color);">Show all files</a>
+                    </div>
                     <div class="container flex-column gap-10">
                         <div class="holder flex-between mt-20">
                             <div class="left flex-between gap-10">
-                                <img src="images/Latest-Upload/avi.svg" alt="">
+                                <img src="../images/Latest-Upload/avi.svg" alt="">
                                 <div class="text">
                                     <p>My-Avi-File.pdf</p>
-                                    <p class="c-grey mt-5 fs-14">Abdullah</p>
+                                    <p class="c-grey mt-5 fs-14">Abdallah</p>
                                 </div>
                             </div>
                             <p class="fs-14 p-5 rad-6 bg-eee">3.6 mb</p>
                         </div>
                         <div class="holder flex-between mt-20">
                             <div class="left flex-between gap-10">
-                                <img src="images/Latest-Upload/pdf.svg" alt="">
+                                <img src="../images/Latest-Upload/pdf.svg" alt="">
                                 <div class="text">
                                     <p>My-Pdf-File.pdf</p>
                                     <p class="c-grey mt-5 fs-14">Emad</p>
@@ -361,7 +300,7 @@
                         </div>
                         <div class="holder flex-between mt-20">
                             <div class="left flex-between gap-10">
-                                <img src="images/Latest-Upload/dll.svg" alt="">
+                                <img src="../images/Latest-Upload/dll.svg" alt="">
                                 <div class="text">
                                     <p>My-Dll-File.pdf</p>
                                     <p class="c-grey mt-5 fs-14">Omar</p>
@@ -371,7 +310,7 @@
                         </div>
                         <div class="holder flex-between mt-20">
                             <div class="left flex-between gap-10">
-                                <img src="images/Latest-Upload/zip.svg" alt="">
+                                <img src="../images/Latest-Upload/zip.svg" alt="">
                                 <div class="text">
                                     <p>My-Zip-File.pdf</p>
                                     <p class="c-grey mt-5 fs-14">Yasser</p>
@@ -381,7 +320,7 @@
                         </div>
                         <div class="holder flex-between mt-20">
                             <div class="left flex-between gap-10">
-                                <img src="images/Latest-Upload/psd.svg" alt="">
+                                <img src="../images/Latest-Upload/psd.svg" alt="">
                                 <div class="text">
                                     <p>My-Psd-File.pdf</p>
                                     <p class="c-grey mt-5 fs-14">Ahmed</p>
@@ -417,7 +356,7 @@
                             <p>Finish The Project & Get Money</p>
                         </div>
                     </div>
-                    <img src="images/project-progress.png" alt="">
+                    <img src="../images/Home/project-progress.png" alt="">
                 </div>
                 <!-- End Last Project Progress -->
                 <!-- Start Reminders -->
@@ -426,19 +365,19 @@
                     <div class="container flex-column gap-20 mt-20">
                         <div class="holder p-relative">
                             <h3 class="fs-18">Check My Tasks List</h3>
-                            <p class="fs-14 c-grey mt-10">28/09/2022 - 12:00am</p>
+                            <p class="fs-14 c-grey mt-10">28/09/2022 - 05:30</p>
                         </div>
                         <div class="holder p-relative">
                             <h3 class="fs-18">Check My Projects</h3>
-                            <p class="fs-14 c-grey mt-10">26/10/2022 - 12:00am</p>
+                            <p class="fs-14 c-grey mt-10">26/10/2022 - 18:00</p>
                         </div>
                         <div class="holder p-relative">
                             <h3 class="fs-18">Call All My Clients</h3>
-                            <p class="fs-14 c-grey mt-10">05/11/2022 - 12:00am</p>
+                            <p class="fs-14 c-grey mt-10">05/11/2022 - 14:38</p>
                         </div>
                         <div class="holder p-relative">
                             <h3 class="fs-18">Finish The Development Workshop</h3>
-                            <p class="fs-14 c-grey mt-10">20/12/2022 - 12:00am</p>
+                            <p class="fs-14 c-grey mt-10">20/12/2022 - 12:00</p>
                         </div>
                     </div>
                 </div>
@@ -449,10 +388,10 @@
                     <div class="container mt-20">
                         <div class="up d-flex gap-20">
                             <div class="img p-relative">
-                                <img src="images/me.jpeg" alt="">
+                                <img src="../images/me.jpeg" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="fs-18">Abdullah Mohamed</h3>
+                                <h3 class="fs-18">Abdallah Mohamed</h3>
                                 <p class="fs-18 c-grey mt-10">About 3 Hours Ago</p>
                             </div>
                         </div>
@@ -508,7 +447,7 @@
                         <div class="holder flex-between p-20 c-white" style="background-color: #AAB8C2;">
                             <div class="socail d-flex gap-20 align-center">
                                 <i class="fa-brands fa-square-twitter fs-28" style="color: #14171A;"></i>
-                                <p style="color: #14171A;"><span class="f-bold">"X"</span> 170K Followers</p>
+                                <p style="color: #14171A;">170K Followers</p>
                             </div>
                             <div class="info">
                                 <a href="#" class="c-white anchor" style="background-color: #14171A;">Retweet</a>
@@ -519,7 +458,10 @@
                 <!-- End Social Media Stats -->
             </div>
             <div class="projects bg-white p-20 rad-10 overflow-h">
-                <h2>Projects</h2>
+                    <div class="flex-between">
+                        <h2>Projects</h2>
+                        <a href="./projects.html" class="anchor" style="background-color: var(--blue-alt-color);">Show all projects</a>
+                    </div>
                 <div class="responsive" style="overflow-x: auto;">
                     <table class="w-full mt-20 1-20 fs-18">
                         <thead>
@@ -539,27 +481,27 @@
                                 <td>Ministry</td>
                                 <td>5300$</td>
                                 <td>
-                                    <img src="images/Projects/team-01.png" alt="">
-                                    <img src="images/Projects/team-02.png" alt="">
-                                    <img src="images/Projects/team-03.png" alt="">
-                                    <img src="images/Projects/team-05.png" alt="">
+                                    <img src="../images/Projects/team-01.png" alt="">
+                                    <img src="../images/Projects/team-02.png" alt="">
+                                    <img src="../images/Projects/team-03.png" alt="">
+                                    <img src="../images/Projects/team-05.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-orange">Pending</a>
+                                    <p class="anchor bg-orange">Pending</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Elzero Shop</td>
+                                <td>Word UI</td>
                                 <td>12 Oct 2021</td>
-                                <td>Elzero Company</td>
+                                <td>Microsoft</td>
                                 <td>1500$</td>
                                 <td>
-                                    <img src="images/Projects/team-01.png" alt="">
-                                    <img src="images/Projects/team-02.png" alt="">
-                                    <img src="images/Projects/team-05.png" alt="">
+                                    <img src="../images/Projects/team-01.png" alt="">
+                                    <img src="../images/Projects/team-02.png" alt="">
+                                    <img src="../images/Projects/team-05.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-blue">In Progress</a>
+                                    <p class="anchor bg-blue">In Progress</p>
                                 </td>
                             </tr>
                             <tr>
@@ -568,11 +510,11 @@
                                 <td>Bouba</td>
                                 <td>800$</td>
                                 <td>
-                                    <img src="images/Projects/team-05.png" alt="">
-                                    <img src="images/Projects/team-02.png" alt="">
+                                    <img src="../images/Projects/team-05.png" alt="">
+                                    <img src="../images/Projects/team-02.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-green">Completed</a>
+                                    <p class="anchor bg-green">Completed</p>
                                 </td>
                             </tr>
                             <tr>
@@ -581,24 +523,24 @@
                                 <td>Mahmoud</td>
                                 <td>600$</td>
                                 <td>
-                                    <img src="images/Projects/team-01.png" alt="">
-                                    <img src="images/Projects/team-04.png" alt="">
+                                    <img src="../images/Projects/team-01.png" alt="">
+                                    <img src="../images/Projects/team-04.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-green">Completed</a>
+                                    <p class="anchor bg-green">Completed</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Sayed Website</td>
+                                <td>Yasser Portfolio</td>
                                 <td>24 May 2021</td>
-                                <td>Sayed</td>
+                                <td>Yasser</td>
                                 <td>300$</td>
                                 <td>
-                                    <img src="images/Projects/team-01.png" alt="">
-                                    <img src="images/Projects/team-04.png" alt="">
+                                    <img src="../images/Projects/team-01.png" alt="">
+                                    <img src="../images/Projects/team-04.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-red">Rejected</a>
+                                    <p class="anchor bg-red">Rejected</p>
                                 </td>
                             </tr>
                             <tr>
@@ -607,11 +549,11 @@
                                 <td>Arena Company</td>
                                 <td>2600$</td>
                                 <td>
-                                    <img src="images/Projects/team-03.png" alt="">
-                                    <img src="images/Projects/team-05.png" alt="">
+                                    <img src="../images/Projects/team-03.png" alt="">
+                                    <img src="../images/Projects/team-05.png" alt="">
                                 </td>
                                 <td>
-                                    <a href="#" class="anchor bg-green">Completed</a>
+                                    <p class="anchor bg-green">Completed</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -620,5 +562,7 @@
             </div>
         </div>
     </div>
+    <script src="../js/home.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
