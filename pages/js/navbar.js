@@ -253,7 +253,7 @@ header.appendChild(bill_notification)
 
 // #region profile picture section
 const profilePicSection = document.createElement('a')
-profilePicSection.setAttribute('href', '../profile.html')
+profilePicSection.setAttribute('href', '../pages/profile.html')
 
 const profileImg = document.createElement('img')
 profileImg.setAttribute('src', './images/me.jpeg')
