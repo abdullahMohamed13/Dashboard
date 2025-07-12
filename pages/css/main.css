@@ -1284,6 +1284,12 @@ aside ul li i {
     transform: translateY(-50%);
     font-size: 50px;
 }
+.friends-page .friend-cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+}
 /* End friends-page */
 /* Start Files Page */
 .files-page .files-side {
